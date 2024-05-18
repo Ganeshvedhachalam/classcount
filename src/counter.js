@@ -20,7 +20,7 @@ class Counter extends Component {
       return (
         <div>
             <h1>Counter App</h1>
-            <h3>count: {this.state.count}</h3>
+            <h3>Count: {this.state.count}</h3>
             <button style={{padding:"10px",width:"200px",height:"70px" ,margin:"15px",fontWeight:"bolder",fontSize:"20px"}} 
             onClick={this.increment}>Increment</button>
             <button style={{padding:"10px",width:"200px",margin:"15px",height :"70px",fontWeight:"bolder",fontSize:"20px"}}
